@@ -1,0 +1,16 @@
+(env
+ (dev
+  (flags
+   (:standard
+     -warn-error -9
+     -warn-error -27
+     -warn-error -32
+     -warn-error -35
+     -warn-error -39
+     -warn-error -50
+     -warn-error -69))))
+
+(library
+  (public_name camlp5.gramlib)
+  (name gramlib)
+  (libraries camlp-streams compiler-libs))
