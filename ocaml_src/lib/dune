@@ -13,4 +13,5 @@
 (library
   (public_name camlp5.gramlib)
   (name gramlib)
-  (libraries camlp-streams compiler-libs))
+  (libraries camlp-streams compiler-libs)
+  (wrapped false))
